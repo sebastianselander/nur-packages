@@ -1,4 +1,4 @@
 { pkgs }:
 {
-    midnight = pkgs.callPackages ./midnight {};
+    midnight = pkgs.callPackages ./midnight.nix {};
 }
